@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanalei&display=swap");
+@font-face {
+  src: url('../../dev/fonts/MavenPro-Bold.ttf');
+  font-family: "Maven";
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: whitesmoke;
+}
+body .containertop {
+  min-height: 100vh;
+  background-image: url("../../dev/img/Sun-Tornado.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border-radius: 0px 20% 0px 10%;*/
+}
+body .containertop .navbar-toggler {
+  background-color: rgba(146, 190, 65, 0.795);
+  box-shadow: 2px 2px 4px darkgreen;
+}
+body .containertop .logo-cont {
+  padding: 0;
+  font-family: "Maven";
+}
+body .containertop .nav-link:hover {
+  text-decoration: underline;
+  background: rgba(171, 223, 88, 0.479);
+}
+body .containertop .card-title{
+  font-family: "Maven";
+}
+body .containertop .card1 {
+  background-color: rgba(238, 243, 162, 0.699);
+}
+body .containertop .card2 {
+  background-color: rgba(248, 252, 196, 0.897);
+}
+body .container-bottom {
+  background-color: whitesmoke;
+  padding: 0;
+}
+body .container-bottom .slider-main {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+}
+body .container-bottom .slider-main .carousel-cell {
+  width: 66%;
+  min-height: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+}
+body .container-bottom .slider-main img {
+  box-shadow: darkolivegreen 3px 3px 5px;
+  width: 98%;
+  max-height: 88%;
+  border-radius: 5px;
+}
+.jumb{
+  background-image: url('../../dev/img/Sun-Tornado.svg');
+  /*border-radius: 0 20% 0 0;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=bonsai.css.map */
